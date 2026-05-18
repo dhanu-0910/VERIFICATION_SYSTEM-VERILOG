@@ -59,14 +59,14 @@ class scoreboard;
     $display("##################################################");
     $display("#            FINAL VERIFICATION SUMMARY          #");
     $display("##################################################");
-    $display("# Total Tests : %0d", test_count);
-    $display("# Passed      : %0d", pass_count);
-    $display("# Failed      : %0d", fail_count);
+    $display("                Total Tests : %0d", test_count);
+    $display("                Passed      : %0d", pass_count);
+    $display("                Failed      : %0d", fail_count);
 
     if(fail_count == 0)
-      $display("# RESULT      : ALL TESTS PASSED");
+      $display("          RESULT      : ALL TESTS PASSED");
     else
-      $display("# RESULT      : MISMATCH DETECTED");
+      $display("          RESULT      : MISMATCH DETECTED");
 
     $display("##################################################\n");
 
