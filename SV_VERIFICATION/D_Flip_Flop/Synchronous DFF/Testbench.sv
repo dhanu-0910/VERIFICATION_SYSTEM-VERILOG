@@ -29,6 +29,9 @@ module d_ff_tb;
   initial begin
     $dumpfile("d_ff_tb.vcd");
     $dumpvars(0, d_ff_tb);
+    $display("*********************************************************");
+    $display("*               VERIFICATION OF D_FLIPFLOP              *");
+    $display("*********************************************************");
     env = new(vif);
     env.run();
     #1000;
