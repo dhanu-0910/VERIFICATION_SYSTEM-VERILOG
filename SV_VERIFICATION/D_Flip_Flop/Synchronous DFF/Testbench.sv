@@ -31,7 +31,7 @@ module d_ff_tb;
     $dumpvars(0, d_ff_tb);
     env = new(vif);
     env.run();
-    #20;
+    #1000;
     $finish;
   end
  
