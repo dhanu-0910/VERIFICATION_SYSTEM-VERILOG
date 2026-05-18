@@ -456,8 +456,8 @@
 ##################################################
 #            FINAL VERIFICATION SUMMARY          #
 ##################################################
-# Total Tests : 30                               #
-# Passed      : 30                               #
-# Failed      : 0                                #
-# RESULT      : ALL TESTS PASSED                 #
+                Total Tests : 30                               
+                Passed      : 30                               
+                Failed      : 0                                
+          RESULT      : ALL TESTS PASSED                 
 ##################################################
