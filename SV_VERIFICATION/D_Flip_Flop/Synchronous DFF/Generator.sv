@@ -2,11 +2,9 @@ class generator;
   
   transaction tr;
   mailbox #(transaction) g2d;
-  event done;
  
-  function new(mailbox #(transaction) g2d,event done);
+  function new(mailbox #(transaction) g2d);
     this.g2d  = g2d;
-    this.done = done;
   endfunction
  
   task run();
@@ -16,7 +14,6 @@ class generator;
         $display("[GENERATOR] ERROR: Randomization Failed"); 
       g2d.put(tr);
       $display("[GENERATOR] rst=%0b d=%0b", tr.rst, tr.d);
-      @(done);
     end
   endtask
  
