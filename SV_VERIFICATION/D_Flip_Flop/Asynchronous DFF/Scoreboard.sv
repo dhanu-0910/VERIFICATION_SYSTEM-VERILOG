@@ -7,9 +7,6 @@
    int fail_count = 0;
    int test_count = 0;
 
-   bit prev_rst = 1'b1;
-   bit prev_d   = 1'b0;
-
    function new(mailbox #(transaction) m2s);
      this.m2s = m2s;
    endfunction
@@ -26,10 +23,8 @@
 
 	   if(tr_a.rst)
          exp_q=1'b0;
-       else if(prev_rst)
-         exp_q = 1'b0;
        else
-         exp_q = prev_d;
+         exp_q = tr_a.d;
 
        if(exp_q === tr_a.q) begin
          result = "PASS";
@@ -44,7 +39,6 @@
        $display("              DFF SCOREBOARD REPORT");
        $display("==================================================");
        $display(" Test Case         : %0d", test_count);
-       $display(" Previous Inputs   : rst=%0b  d=%0b", prev_rst, prev_d);
        $display(" Current DUT Out   : q=%0b", tr_a.q);
        $display(" Expected Output   : q=%0b", exp_q);
        $display(" Status            : %s", result);
@@ -52,8 +46,6 @@
                 pass_count, fail_count);
        $display("==================================================\n");
 
-       prev_rst = tr_a.rst;
-       prev_d   = tr_a.d;
      end
 
      $display("\n");
