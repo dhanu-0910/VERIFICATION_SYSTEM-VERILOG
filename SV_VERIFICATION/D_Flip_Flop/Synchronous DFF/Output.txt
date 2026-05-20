@@ -2,449 +2,419 @@
                                   *               VERIFICATION OF D_FLIPFLOP              * 
                                   *********************************************************
 [GENERATOR] rst=1 d=0
-[MONITOR]   rst=0 d=0 q=0
+[GENERATOR] rst=0 d=0
+[GENERATOR] rst=0 d=1
+[GENERATOR] rst=0 d=1
+[GENERATOR] rst=0 d=1
+[GENERATOR] rst=0 d=0
+[GENERATOR] rst=1 d=0
+[GENERATOR] rst=0 d=1
+[GENERATOR] rst=0 d=0
+[GENERATOR] rst=1 d=1
+[GENERATOR] rst=0 d=1
+[GENERATOR] rst=0 d=1
+[GENERATOR] rst=0 d=1
+[GENERATOR] rst=0 d=1
+[GENERATOR] rst=1 d=1
+[GENERATOR] rst=0 d=1
+[GENERATOR] rst=0 d=1
+[GENERATOR] rst=0 d=1
+[GENERATOR] rst=0 d=0
+[GENERATOR] rst=0 d=0
+[GENERATOR] rst=0 d=0
+[GENERATOR] rst=0 d=0
+[GENERATOR] rst=1 d=0
+[GENERATOR] rst=0 d=0
+[GENERATOR] rst=0 d=0
+[GENERATOR] rst=1 d=1
+[GENERATOR] rst=0 d=0
+[GENERATOR] rst=0 d=0
+[GENERATOR] rst=0 d=0
+[GENERATOR] rst=0 d=0
 [DRIVER]    rst=1 d=0
+[MONITOR]   rst=1 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 1
- Previous Inputs   : rst=1  d=0
  Current DUT Out   : q=0
  Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=1 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=0
-[MONITOR]   rst=1 d=0 q=0
 [DRIVER]    rst=0 d=0
+[MONITOR]   rst=0 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 2
- Previous Inputs   : rst=0  d=0
  Current DUT Out   : q=0
  Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=2 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=1
-[MONITOR]   rst=0 d=0 q=0
 [DRIVER]    rst=0 d=1
+[MONITOR]   rst=0 d=1 q=1
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 3
- Previous Inputs   : rst=1  d=0
- Current DUT Out   : q=0
- Expected Output   : q=0
+ Current DUT Out   : q=1
+ Expected Output   : q=1
  Status            : PASS
  Running Score     : PASS=3 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=1
-[MONITOR]   rst=0 d=1 q=0
 [DRIVER]    rst=0 d=1
+[MONITOR]   rst=0 d=1 q=1
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 4
- Previous Inputs   : rst=0  d=0
- Current DUT Out   : q=0
- Expected Output   : q=0
+ Current DUT Out   : q=1
+ Expected Output   : q=1
  Status            : PASS
  Running Score     : PASS=4 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=1
-[MONITOR]   rst=0 d=1 q=1
 [DRIVER]    rst=0 d=1
+[MONITOR]   rst=0 d=1 q=1
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 5
- Previous Inputs   : rst=0  d=1
  Current DUT Out   : q=1
  Expected Output   : q=1
  Status            : PASS
  Running Score     : PASS=5 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=0
-[MONITOR]   rst=0 d=1 q=1
 [DRIVER]    rst=0 d=0
+[MONITOR]   rst=0 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 6
- Previous Inputs   : rst=0  d=1
- Current DUT Out   : q=1
- Expected Output   : q=1
+ Current DUT Out   : q=0
+ Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=6 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=1 d=0
-[MONITOR]   rst=0 d=0 q=1
 [DRIVER]    rst=1 d=0
+[MONITOR]   rst=1 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 7
- Previous Inputs   : rst=0  d=1
- Current DUT Out   : q=1
- Expected Output   : q=1
+ Current DUT Out   : q=0
+ Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=7 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=1
-[MONITOR]   rst=1 d=0 q=0
 [DRIVER]    rst=0 d=1
+[MONITOR]   rst=0 d=1 q=1
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 8
- Previous Inputs   : rst=0  d=0
- Current DUT Out   : q=0
- Expected Output   : q=0
+ Current DUT Out   : q=1
+ Expected Output   : q=1
  Status            : PASS
  Running Score     : PASS=8 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=0
-[MONITOR]   rst=0 d=1 q=0
 [DRIVER]    rst=0 d=0
+[MONITOR]   rst=0 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 9
- Previous Inputs   : rst=1  d=0
  Current DUT Out   : q=0
  Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=9 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=1 d=1
-[MONITOR]   rst=0 d=0 q=1
 [DRIVER]    rst=1 d=1
+[MONITOR]   rst=1 d=1 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 10
- Previous Inputs   : rst=0  d=1
- Current DUT Out   : q=1
- Expected Output   : q=1
+ Current DUT Out   : q=0
+ Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=10 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=1
-[MONITOR]   rst=1 d=1 q=0
 [DRIVER]    rst=0 d=1
+[MONITOR]   rst=0 d=1 q=1
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 11
- Previous Inputs   : rst=0  d=0
- Current DUT Out   : q=0
- Expected Output   : q=0
+ Current DUT Out   : q=1
+ Expected Output   : q=1
  Status            : PASS
  Running Score     : PASS=11 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=1
-[MONITOR]   rst=0 d=1 q=0
 [DRIVER]    rst=0 d=1
+[MONITOR]   rst=0 d=1 q=1
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 12
- Previous Inputs   : rst=1  d=1
- Current DUT Out   : q=0
- Expected Output   : q=0
+ Current DUT Out   : q=1
+ Expected Output   : q=1
  Status            : PASS
  Running Score     : PASS=12 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=1
-[MONITOR]   rst=0 d=1 q=1
 [DRIVER]    rst=0 d=1
+[MONITOR]   rst=0 d=1 q=1
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 13
- Previous Inputs   : rst=0  d=1
  Current DUT Out   : q=1
  Expected Output   : q=1
  Status            : PASS
  Running Score     : PASS=13 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=1
-[MONITOR]   rst=0 d=1 q=1
 [DRIVER]    rst=0 d=1
+[MONITOR]   rst=0 d=1 q=1
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 14
- Previous Inputs   : rst=0  d=1
  Current DUT Out   : q=1
  Expected Output   : q=1
  Status            : PASS
  Running Score     : PASS=14 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=1 d=1
-[MONITOR]   rst=0 d=1 q=1
 [DRIVER]    rst=1 d=1
+[MONITOR]   rst=1 d=1 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 15
- Previous Inputs   : rst=0  d=1
- Current DUT Out   : q=1
- Expected Output   : q=1
+ Current DUT Out   : q=0
+ Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=15 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=1
-[MONITOR]   rst=1 d=1 q=1
 [DRIVER]    rst=0 d=1
+[MONITOR]   rst=0 d=1 q=1
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 16
- Previous Inputs   : rst=0  d=1
  Current DUT Out   : q=1
  Expected Output   : q=1
  Status            : PASS
  Running Score     : PASS=16 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=1
-[MONITOR]   rst=0 d=1 q=0
 [DRIVER]    rst=0 d=1
+[MONITOR]   rst=0 d=1 q=1
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 17
- Previous Inputs   : rst=1  d=1
- Current DUT Out   : q=0
- Expected Output   : q=0
+ Current DUT Out   : q=1
+ Expected Output   : q=1
  Status            : PASS
  Running Score     : PASS=17 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=1
-[MONITOR]   rst=0 d=1 q=1
 [DRIVER]    rst=0 d=1
+[MONITOR]   rst=0 d=1 q=1
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 18
- Previous Inputs   : rst=0  d=1
  Current DUT Out   : q=1
  Expected Output   : q=1
  Status            : PASS
  Running Score     : PASS=18 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=0
-[MONITOR]   rst=0 d=1 q=1
 [DRIVER]    rst=0 d=0
+[MONITOR]   rst=0 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 19
- Previous Inputs   : rst=0  d=1
- Current DUT Out   : q=1
- Expected Output   : q=1
+ Current DUT Out   : q=0
+ Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=19 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=0
-[MONITOR]   rst=0 d=0 q=1
 [DRIVER]    rst=0 d=0
+[MONITOR]   rst=0 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 20
- Previous Inputs   : rst=0  d=1
- Current DUT Out   : q=1
- Expected Output   : q=1
+ Current DUT Out   : q=0
+ Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=20 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=0
-[MONITOR]   rst=0 d=0 q=0
 [DRIVER]    rst=0 d=0
+[MONITOR]   rst=0 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 21
- Previous Inputs   : rst=0  d=0
  Current DUT Out   : q=0
  Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=21 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=0
-[MONITOR]   rst=0 d=0 q=0
 [DRIVER]    rst=0 d=0
+[MONITOR]   rst=0 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 22
- Previous Inputs   : rst=0  d=0
  Current DUT Out   : q=0
  Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=22 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=1 d=0
-[MONITOR]   rst=0 d=0 q=0
 [DRIVER]    rst=1 d=0
+[MONITOR]   rst=1 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 23
- Previous Inputs   : rst=0  d=0
  Current DUT Out   : q=0
  Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=23 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=0
-[MONITOR]   rst=1 d=0 q=0
 [DRIVER]    rst=0 d=0
+[MONITOR]   rst=0 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 24
- Previous Inputs   : rst=0  d=0
  Current DUT Out   : q=0
  Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=24 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=0
-[MONITOR]   rst=0 d=0 q=0
 [DRIVER]    rst=0 d=0
+[MONITOR]   rst=0 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 25
- Previous Inputs   : rst=1  d=0
  Current DUT Out   : q=0
  Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=25 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=1 d=1
-[MONITOR]   rst=0 d=0 q=0
 [DRIVER]    rst=1 d=1
+[MONITOR]   rst=1 d=1 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 26
- Previous Inputs   : rst=0  d=0
  Current DUT Out   : q=0
  Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=26 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=0
-[MONITOR]   rst=1 d=1 q=0
 [DRIVER]    rst=0 d=0
+[MONITOR]   rst=0 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 27
- Previous Inputs   : rst=0  d=0
  Current DUT Out   : q=0
  Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=27 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=0
-[MONITOR]   rst=0 d=0 q=0
 [DRIVER]    rst=0 d=0
+[MONITOR]   rst=0 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 28
- Previous Inputs   : rst=1  d=1
  Current DUT Out   : q=0
  Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=28 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=0
-[MONITOR]   rst=0 d=0 q=0
 [DRIVER]    rst=0 d=0
+[MONITOR]   rst=0 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 29
- Previous Inputs   : rst=0  d=0
  Current DUT Out   : q=0
  Expected Output   : q=0
  Status            : PASS
  Running Score     : PASS=29 | FAIL=0
 ==================================================
 
-[GENERATOR] rst=0 d=0
-[MONITOR]   rst=0 d=0 q=0
 [DRIVER]    rst=0 d=0
+[MONITOR]   rst=0 d=0 q=0
 
 ==================================================
               DFF SCOREBOARD REPORT
 ==================================================
  Test Case         : 30
- Previous Inputs   : rst=0  d=0
  Current DUT Out   : q=0
  Expected Output   : q=0
  Status            : PASS
@@ -456,8 +426,8 @@
 ##################################################
 #            FINAL VERIFICATION SUMMARY          #
 ##################################################
-                Total Tests : 30                               
-                Passed      : 30                               
-                Failed      : 0                                
-          RESULT      : ALL TESTS PASSED                 
+                Total Tests : 30
+                Passed      : 30
+                Failed      : 0
+          RESULT      : ALL TESTS PASSED
 ##################################################
