@@ -14,9 +14,9 @@ class monitor;
     repeat (30) begin
       tr = new();
       @(vif.mon_cb);
-      tr.rst = vif.mon_cb.rst;
-      tr.d = vif.mon_cb.d;
-      tr.q = vif.mon_cb.q;
+      tr.rst = vif.rst;
+      tr.d = vif.d;
+      tr.q = vif.q;
       m2s.put(tr);
       $display("[MONITOR]   rst=%0b d=%0b q=%0b", tr.rst, tr.d, tr.q);
     end
