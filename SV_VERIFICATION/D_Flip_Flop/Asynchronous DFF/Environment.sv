@@ -8,7 +8,6 @@ class environment;
   mailbox #(transaction) g2d;
   mailbox #(transaction) m2s;
  
-  event done;
  
   virtual d_if vif;
  
@@ -16,8 +15,8 @@ class environment;
     this.vif = vif;
     g2d = new();
     m2s = new();
-    gen = new(g2d, done);   
-    drv = new(g2d, vif, done);
+    gen = new(g2d);   
+    drv = new(g2d, vif);
     mon = new(m2s, vif);
     scb = new(m2s);
   endfunction
