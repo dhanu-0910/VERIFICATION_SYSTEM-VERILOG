@@ -1,0 +1,514 @@
+                                        ******************************************************
+                                                    VERIFICATION OF DUAL PORT RAM             
+                                        ******************************************************
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=1  w_en2=0
+ADDRESS: a1=0     a2=14
+DATAIN:  din1=107   din2=28
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=3     a2=9
+DATAIN:  din1=149   din2=154
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=1  w_en2=1
+ADDRESS: a1=3     a2=15
+DATAIN:  din1=243   din2=65
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=0  w_en2=1
+ADDRESS: a1=6     a2=11
+DATAIN:  din1=35   din2=184
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=1  w_en2=1
+ADDRESS: a1=4     a2=0
+DATAIN:  din1=56   din2=38
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=0  w_en2=1
+ADDRESS: a1=7     a2=3
+DATAIN:  din1=32   din2=173
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=1  w_en2=1
+ADDRESS: a1=4     a2=14
+DATAIN:  din1=29   din2=7
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=1  w_en2=0
+ADDRESS: a1=15     a2=13
+DATAIN:  din1=178   din2=20
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=1  w_en2=0
+ADDRESS: a1=4     a2=6
+DATAIN:  din1=58   din2=16
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=1     a2=5
+DATAIN:  din1=84   din2=60
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=11     a2=1
+DATAIN:  din1=31   din2=182
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=1  w_en2=0
+ADDRESS: a1=7     a2=5
+DATAIN:  din1=96   din2=246
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=7     a2=3
+DATAIN:  din1=127   din2=254
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=1  w_en2=1
+ADDRESS: a1=1     a2=4
+DATAIN:  din1=81   din2=169
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=1  w_en2=1
+ADDRESS: a1=8     a2=4
+DATAIN:  din1=205   din2=162
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=0  w_en2=1
+ADDRESS: a1=8     a2=7
+DATAIN:  din1=130   din2=138
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=5     a2=3
+DATAIN:  din1=102   din2=184
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=7     a2=11
+DATAIN:  din1=80   din2=75
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=1  w_en2=0
+ADDRESS: a1=7     a2=2
+DATAIN:  din1=180   din2=97
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[GENERATOR]
+ENABLE:  w_en1=0  w_en2=1
+ADDRESS: a1=7     a2=0
+DATAIN:  din1=81   din2=228
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 10
+[DRIVER]
+ENABLE:  w_en1=1  w_en2=0
+ADDRESS: a1=0     a2=14
+DATAIN:  din1=107   din2=28
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 15
+[MONITOR]
+ENABLE:  w_en1=1  w_en2=0
+ADDRESS: a1=0     a2=14
+DATAIN:  din1=107   din2=28
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+[SCOREBOARD] PORT2 PASS  exp=0  got=0
+----------------------------------------
+Time = 20
+[DRIVER]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=3     a2=9
+DATAIN:  din1=149   din2=154
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 25
+[MONITOR]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=3     a2=9
+DATAIN:  din1=149   din2=154
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=0  got=0
+[SCOREBOARD] PORT2 PASS  exp=0  got=0
+----------------------------------------
+Time = 30
+[DRIVER]
+ENABLE:  w_en1=1  w_en2=1
+ADDRESS: a1=3     a2=15
+DATAIN:  din1=243   din2=65
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 35
+[MONITOR]
+ENABLE:  w_en1=1  w_en2=1
+ADDRESS: a1=3     a2=15
+DATAIN:  din1=243   din2=65
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 40
+[DRIVER]
+ENABLE:  w_en1=0  w_en2=1
+ADDRESS: a1=6     a2=11
+DATAIN:  din1=35   din2=184
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 45
+[MONITOR]
+ENABLE:  w_en1=0  w_en2=1
+ADDRESS: a1=6     a2=11
+DATAIN:  din1=35   din2=184
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=0  got=0
+----------------------------------------
+Time = 50
+[DRIVER]
+ENABLE:  w_en1=1  w_en2=1
+ADDRESS: a1=4     a2=0
+DATAIN:  din1=56   din2=38
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 55
+[MONITOR]
+ENABLE:  w_en1=1  w_en2=1
+ADDRESS: a1=4     a2=0
+DATAIN:  din1=56   din2=38
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 60
+[DRIVER]
+ENABLE:  w_en1=0  w_en2=1
+ADDRESS: a1=7     a2=3
+DATAIN:  din1=32   din2=173
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 65
+[MONITOR]
+ENABLE:  w_en1=0  w_en2=1
+ADDRESS: a1=7     a2=3
+DATAIN:  din1=32   din2=173
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=0  got=0
+----------------------------------------
+Time = 70
+[DRIVER]
+ENABLE:  w_en1=1  w_en2=1
+ADDRESS: a1=4     a2=14
+DATAIN:  din1=29   din2=7
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 75
+[MONITOR]
+ENABLE:  w_en1=1  w_en2=1
+ADDRESS: a1=4     a2=14
+DATAIN:  din1=29   din2=7
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 80
+[DRIVER]
+ENABLE:  w_en1=1  w_en2=0
+ADDRESS: a1=15     a2=13
+DATAIN:  din1=178   din2=20
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 85
+[MONITOR]
+ENABLE:  w_en1=1  w_en2=0
+ADDRESS: a1=15     a2=13
+DATAIN:  din1=178   din2=20
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+[SCOREBOARD] PORT2 PASS  exp=0  got=0
+----------------------------------------
+Time = 90
+[DRIVER]
+ENABLE:  w_en1=1  w_en2=0
+ADDRESS: a1=4     a2=6
+DATAIN:  din1=58   din2=16
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 95
+[MONITOR]
+ENABLE:  w_en1=1  w_en2=0
+ADDRESS: a1=4     a2=6
+DATAIN:  din1=58   din2=16
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+[SCOREBOARD] PORT2 PASS  exp=0  got=0
+----------------------------------------
+Time = 100
+[DRIVER]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=1     a2=5
+DATAIN:  din1=84   din2=60
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 105
+[MONITOR]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=1     a2=5
+DATAIN:  din1=84   din2=60
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=0  got=0
+[SCOREBOARD] PORT2 PASS  exp=0  got=0
+----------------------------------------
+Time = 110
+[DRIVER]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=11     a2=1
+DATAIN:  din1=31   din2=182
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 115
+[MONITOR]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=11     a2=1
+DATAIN:  din1=31   din2=182
+DATAOUT: dout1=184  dout2=0
+----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=184  got=184
+[SCOREBOARD] PORT2 PASS  exp=0  got=0
+----------------------------------------
+Time = 120
+[DRIVER]
+ENABLE:  w_en1=1  w_en2=0
+ADDRESS: a1=7     a2=5
+DATAIN:  din1=96   din2=246
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 125
+[MONITOR]
+ENABLE:  w_en1=1  w_en2=0
+ADDRESS: a1=7     a2=5
+DATAIN:  din1=96   din2=246
+DATAOUT: dout1=184  dout2=0
+----------------------------------------
+[SCOREBOARD] PORT2 PASS  exp=0  got=0
+----------------------------------------
+Time = 130
+[DRIVER]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=7     a2=3
+DATAIN:  din1=127   din2=254
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 135
+[MONITOR]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=7     a2=3
+DATAIN:  din1=127   din2=254
+DATAOUT: dout1=96  dout2=173
+----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=96  got=96
+[SCOREBOARD] PORT2 PASS  exp=173  got=173
+----------------------------------------
+Time = 140
+[DRIVER]
+ENABLE:  w_en1=1  w_en2=1
+ADDRESS: a1=1     a2=4
+DATAIN:  din1=81   din2=169
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 145
+[MONITOR]
+ENABLE:  w_en1=1  w_en2=1
+ADDRESS: a1=1     a2=4
+DATAIN:  din1=81   din2=169
+DATAOUT: dout1=96  dout2=173
+----------------------------------------
+----------------------------------------
+Time = 150
+[DRIVER]
+ENABLE:  w_en1=1  w_en2=1
+ADDRESS: a1=8     a2=4
+DATAIN:  din1=205   din2=162
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 155
+[MONITOR]
+ENABLE:  w_en1=1  w_en2=1
+ADDRESS: a1=8     a2=4
+DATAIN:  din1=205   din2=162
+DATAOUT: dout1=96  dout2=173
+----------------------------------------
+----------------------------------------
+Time = 160
+[DRIVER]
+ENABLE:  w_en1=0  w_en2=1
+ADDRESS: a1=8     a2=7
+DATAIN:  din1=130   din2=138
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 165
+[MONITOR]
+ENABLE:  w_en1=0  w_en2=1
+ADDRESS: a1=8     a2=7
+DATAIN:  din1=130   din2=138
+DATAOUT: dout1=205  dout2=173
+----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=205  got=205
+----------------------------------------
+Time = 170
+[DRIVER]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=5     a2=3
+DATAIN:  din1=102   din2=184
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 175
+[MONITOR]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=5     a2=3
+DATAIN:  din1=102   din2=184
+DATAOUT: dout1=0  dout2=173
+----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=0  got=0
+[SCOREBOARD] PORT2 PASS  exp=173  got=173
+----------------------------------------
+Time = 180
+[DRIVER]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=7     a2=11
+DATAIN:  din1=80   din2=75
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 185
+[MONITOR]
+ENABLE:  w_en1=0  w_en2=0
+ADDRESS: a1=7     a2=11
+DATAIN:  din1=80   din2=75
+DATAOUT: dout1=138  dout2=184
+----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=138  got=138
+[SCOREBOARD] PORT2 PASS  exp=184  got=184
+----------------------------------------
+Time = 190
+[DRIVER]
+ENABLE:  w_en1=1  w_en2=0
+ADDRESS: a1=7     a2=2
+DATAIN:  din1=180   din2=97
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 195
+[MONITOR]
+ENABLE:  w_en1=1  w_en2=0
+ADDRESS: a1=7     a2=2
+DATAIN:  din1=180   din2=97
+DATAOUT: dout1=138  dout2=0
+----------------------------------------
+[SCOREBOARD] PORT2 PASS  exp=0  got=0
+----------------------------------------
+Time = 200
+[DRIVER]
+ENABLE:  w_en1=0  w_en2=1
+ADDRESS: a1=7     a2=0
+DATAIN:  din1=81   din2=228
+DATAOUT: dout1=0  dout2=0
+----------------------------------------
+----------------------------------------
+Time = 205
+[MONITOR]
+ENABLE:  w_en1=0  w_en2=1
+ADDRESS: a1=7     a2=0
+DATAIN:  din1=81   din2=228
+DATAOUT: dout1=180  dout2=0
+----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=180  got=180
+
+========================================================
+                 FINAL OUTPUT SUMMARY                   
+========================================================
+ TOTAL TESTS  : 20
+ PASSED TESTS : 21
+ FAILED TESTS : 0
+========================================================
+ RESULT : ALL TESTCASES PASSED SUCCESSFULLY 
+========================================================
