@@ -34,29 +34,19 @@ class scoreboard;
       else
         exp_dout2  = mem[tr.a2];
       
-      // Check PORT1 on READ only
-      if (!tr.w_en1) begin
-        if (exp_dout1 == tr.dout1) begin
+      if (exp_dout1 == tr.dout1 && exp_dout2 == tr.dout2) begin
           $display("[SCOREBOARD] PORT1 PASS  exp=%0d  got=%0d", exp_dout1, tr.dout1);
+        $display("[SCOREBOARD] PORT2 PASS  exp=%0d  got=%0d", exp_dout2, tr.dout2);
           pass_count++;
-        end else begin
+        end 
+      else begin
           $display("[SCOREBOARD] PORT1 FAIL  exp=%0d  got=%0d", exp_dout1, tr.dout1);
-          fail_count++;
-        end
-      end
- 
-      // Check PORT2 on READ only
-      if (!(tr.w_en2 && !(tr.w_en1 && tr.a1 == tr.a2))) begin
-        if (exp_dout2 == tr.dout2) begin
-          $display("[SCOREBOARD] PORT2 PASS  exp=%0d  got=%0d", exp_dout2, tr.dout2);
-          pass_count++;
-        end else begin
           $display("[SCOREBOARD] PORT2 FAIL  exp=%0d  got=%0d", exp_dout2, tr.dout2);
           fail_count++;
         end
-      end
     end
- 
+      
+      
     $display("\n========================================================");
     $display("                 FINAL OUTPUT SUMMARY                   ");
     $display("========================================================");
