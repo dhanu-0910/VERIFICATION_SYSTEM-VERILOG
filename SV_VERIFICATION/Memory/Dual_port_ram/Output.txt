@@ -177,6 +177,7 @@ ADDRESS: a1=0     a2=14
 DATAIN:  din1=107   din2=28
 DATAOUT: dout1=0  dout2=0
 ----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=0  got=0
 [SCOREBOARD] PORT2 PASS  exp=0  got=0
 ----------------------------------------
 Time = 20
@@ -212,6 +213,8 @@ ADDRESS: a1=3     a2=15
 DATAIN:  din1=243   din2=65
 DATAOUT: dout1=0  dout2=0
 ----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=0  got=0
+[SCOREBOARD] PORT2 PASS  exp=0  got=0
 ----------------------------------------
 Time = 40
 [DRIVER]
@@ -229,6 +232,7 @@ DATAIN:  din1=35   din2=184
 DATAOUT: dout1=0  dout2=0
 ----------------------------------------
 [SCOREBOARD] PORT1 PASS  exp=0  got=0
+[SCOREBOARD] PORT2 PASS  exp=0  got=0
 ----------------------------------------
 Time = 50
 [DRIVER]
@@ -245,6 +249,8 @@ ADDRESS: a1=4     a2=0
 DATAIN:  din1=56   din2=38
 DATAOUT: dout1=0  dout2=0
 ----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=0  got=0
+[SCOREBOARD] PORT2 PASS  exp=0  got=0
 ----------------------------------------
 Time = 60
 [DRIVER]
@@ -262,6 +268,7 @@ DATAIN:  din1=32   din2=173
 DATAOUT: dout1=0  dout2=0
 ----------------------------------------
 [SCOREBOARD] PORT1 PASS  exp=0  got=0
+[SCOREBOARD] PORT2 PASS  exp=0  got=0
 ----------------------------------------
 Time = 70
 [DRIVER]
@@ -278,6 +285,8 @@ ADDRESS: a1=4     a2=14
 DATAIN:  din1=29   din2=7
 DATAOUT: dout1=0  dout2=0
 ----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=0  got=0
+[SCOREBOARD] PORT2 PASS  exp=0  got=0
 ----------------------------------------
 Time = 80
 [DRIVER]
@@ -294,6 +303,7 @@ ADDRESS: a1=15     a2=13
 DATAIN:  din1=178   din2=20
 DATAOUT: dout1=0  dout2=0
 ----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=0  got=0
 [SCOREBOARD] PORT2 PASS  exp=0  got=0
 ----------------------------------------
 Time = 90
@@ -311,6 +321,7 @@ ADDRESS: a1=4     a2=6
 DATAIN:  din1=58   din2=16
 DATAOUT: dout1=0  dout2=0
 ----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=0  got=0
 [SCOREBOARD] PORT2 PASS  exp=0  got=0
 ----------------------------------------
 Time = 100
@@ -364,6 +375,7 @@ ADDRESS: a1=7     a2=5
 DATAIN:  din1=96   din2=246
 DATAOUT: dout1=184  dout2=0
 ----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=184  got=184
 [SCOREBOARD] PORT2 PASS  exp=0  got=0
 ----------------------------------------
 Time = 130
@@ -399,6 +411,8 @@ ADDRESS: a1=1     a2=4
 DATAIN:  din1=81   din2=169
 DATAOUT: dout1=96  dout2=173
 ----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=96  got=96
+[SCOREBOARD] PORT2 PASS  exp=173  got=173
 ----------------------------------------
 Time = 150
 [DRIVER]
@@ -415,6 +429,8 @@ ADDRESS: a1=8     a2=4
 DATAIN:  din1=205   din2=162
 DATAOUT: dout1=96  dout2=173
 ----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=96  got=96
+[SCOREBOARD] PORT2 PASS  exp=173  got=173
 ----------------------------------------
 Time = 160
 [DRIVER]
@@ -432,6 +448,7 @@ DATAIN:  din1=130   din2=138
 DATAOUT: dout1=205  dout2=173
 ----------------------------------------
 [SCOREBOARD] PORT1 PASS  exp=205  got=205
+[SCOREBOARD] PORT2 PASS  exp=173  got=173
 ----------------------------------------
 Time = 170
 [DRIVER]
@@ -484,6 +501,7 @@ ADDRESS: a1=7     a2=2
 DATAIN:  din1=180   din2=97
 DATAOUT: dout1=138  dout2=0
 ----------------------------------------
+[SCOREBOARD] PORT1 PASS  exp=138  got=138
 [SCOREBOARD] PORT2 PASS  exp=0  got=0
 ----------------------------------------
 Time = 200
@@ -502,12 +520,13 @@ DATAIN:  din1=81   din2=228
 DATAOUT: dout1=180  dout2=0
 ----------------------------------------
 [SCOREBOARD] PORT1 PASS  exp=180  got=180
+[SCOREBOARD] PORT2 PASS  exp=0  got=0
 
 ========================================================
                  FINAL OUTPUT SUMMARY                   
 ========================================================
  TOTAL TESTS  : 20
- PASSED TESTS : 21
+ PASSED TESTS : 20
  FAILED TESTS : 0
 ========================================================
  RESULT : ALL TESTCASES PASSED SUCCESSFULLY 
